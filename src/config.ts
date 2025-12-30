@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://junkdrawer.com/", // replace this with your deployed domain
+  website: "https://junkdrawer.app/", // replace this with your deployed domain
   author: "Vitor Albres",
-  profile: "https://junkdrawer.com/",
+  profile: "https://junkdrawer.app/",
   desc: "Collection on blogs and articles about anything I find interesting.",
   title: "JunkDrawer",
   ogImage: "astropaper-og.jpg",

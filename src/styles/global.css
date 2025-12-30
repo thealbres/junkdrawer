@@ -7,7 +7,7 @@
 html[data-theme="light"] {
   --background: #fdfdfd;
   --foreground: #282728;
-  --accent: #006cac;
+  --accent: #eb3fd3;
   --muted: #e6e6e6;
   --border: #ece9e9;
 }
@@ -21,6 +21,7 @@ html[data-theme="dark"] {
 }
 
 @theme inline {
+  /* --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif; */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
