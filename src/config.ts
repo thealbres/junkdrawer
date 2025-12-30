@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/thealbres/junkdrawer/edit/main/",
+    url: "https://github.com/thealbres/junkdrawer/edit/master/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"

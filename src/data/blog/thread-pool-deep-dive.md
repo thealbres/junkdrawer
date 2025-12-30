@@ -14,11 +14,12 @@ description: "Everything you need to know about ThreadPools and how they help hi
 
 Before we dive into what a ThreadPool is and how it helps your systems handle the heavy load that's been causing headaches lately, we first need to go back to the basics: explaining what a **Thread** is!
 
+
+## Multi-threading: More Than One Task at a Time
+
 First off, no, it's not the kind of "thread" you see on social media. We're talking about the computing universe. This concept is increasingly present in the vocabulary of developers, especially those dealing with giant systems and thousands of processes or requests.
 
 The word **Thread** refers to a line or sequence of execution. We can say a thread is a small set of instructions that works as a sub-system, enabling a single process to be divided into two or more tasks that can be executed concurrently. In short: a thread is a little place responsible for executing a specific task.
-
-## Multi-threading: More Than One Task at a Time
 
 Knowing what a thread is, we can move to **Multi-threading**.
 
