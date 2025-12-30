@@ -1,37 +1,44 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
+description: "Software Engineer. Scaling things, vibe-coding in Go, and getting thrown around on the mats."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+<div class="flex flex-col md:flex-row gap-8 items-start">
+  <div class="w-full md:w-auto md:flex-shrink-0 md:max-w-[281px]">
+      <img src="/assets/profile.jfif" alt="Vitor Albres" class="w-full h-auto rounded-lg" />
+  </div>
+  <div class="flex-1 min-w-0">
+    <p>Just a dev who loves building things that actually scale. Currently vibe-coding my way through backend architectures and chasing fresh ideas in the AI space.</p>
+    <p>I spend my days crafting high-throughput systems and my nights at the gym getting thrown around while practicing Judo or Jiu-jitsu. 🥋</p>
+  </div>
+</div>
 
-![Astro Paper](public/astropaper-og.jpg)
+## What's the deal with this blog?
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+This is my **junk drawer**. A place where I dump random thoughts, technical rabbit holes, and whatever else I'm currently obsessed with. 
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- 🔥 **High-scale everything**: If it doesn't handle a billion requests, is it even fun?
+- 📚 **Architecture Nerd**: Grasping the ocean of software design.
+- 🤖 **AI Tinkering**: GenAI/LLMs — because the future is weird and exciting.
+- 🏄 **Go \& Go**: My current language of choice for building the next big thing.
 
-## Features
+## GitHub Activity
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+<div class="bg-skin-card p-0 rounded-lg overflow-hidden">
+  <img 
+    src="https://ghchart.rshah.org/thealbres" 
+    alt="Vitor's GitHub Contribution Graph" 
+    class="w-full"
+    style="max-width: 100%; height: auto;"
+    loading="lazy"
+  />
+</div>
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+I build what excites me and push most of it to the cloud.
 
-and so much more.
+[Catch me on GitHub](https://github.com/thealbres) or [say hi on LinkedIn](https://linkedin.com/in/thealbres).
 
-## Show your support
+---
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+*Minimalism is cool, but junk drawers are where the real treasure is.*
