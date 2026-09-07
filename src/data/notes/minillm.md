@@ -1,6 +1,6 @@
 ---
 title: "Notes on: MiniLLM"
-pubDatetime: 2026-09-07T12:20:00Z
+pubDatetime: 2026-09-06T12:20:00Z
 description: The reverse-KL policy-gradient derivation behind MiniLLM — per-token rewards, teacher-mixed sampling, length normalization — plus the actual GPT-2/OPT/LLaMA numbers.
 tags:
   - distillation

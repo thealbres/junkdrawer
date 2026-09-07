@@ -1,6 +1,6 @@
 ---
 title: "Notes on: Distilling the Knowledge in a Neural Network"
-pubDatetime: 2026-09-07T12:00:00Z
+pubDatetime: 2026-09-06T12:00:00Z
 description: Hinton, Vinyals & Dean's 2015 paper — the mechanics of soft-target distillation, the "omit a digit" MNIST experiment, and how it scales an ensemble of specialists back into one model.
 tags:
   - distillation

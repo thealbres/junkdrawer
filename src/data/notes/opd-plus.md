@@ -1,6 +1,6 @@
 ---
 title: "Notes on: OPD+"
-pubDatetime: 2026-09-07T12:35:00Z
+pubDatetime: 2026-09-06T12:35:00Z
 description: The actual bug OPD+ finds — stop-gradient drops a real gradient term for every f-divergence except reverse KL, which is why MiniLLM-style training "just happened" to work — plus the fix and the Table 2 numbers.
 tags:
   - distillation

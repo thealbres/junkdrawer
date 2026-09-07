@@ -1,6 +1,6 @@
 ---
 title: "Notes on: On-Policy Distillation of Language Models (GKD)"
-pubDatetime: 2026-09-07T12:15:00Z
+pubDatetime: 2026-09-06T12:15:00Z
 description: The actual GKD objective — a λ-weighted mix of fixed-dataset and student-sampled sequences, a tunable JSD(β) divergence family, and where each choice wins across T5-family experiments.
 tags:
   - distillation

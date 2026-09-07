@@ -1,6 +1,6 @@
 ---
 title: "Notes on: Rethinking On-Policy Distillation of LLMs"
-pubDatetime: 2026-09-07T12:25:00Z
+pubDatetime: 2026-09-06T12:25:00Z
 description: The actual mechanism behind when on-policy distillation works — token overlap ratio rising toward 91%, a "stronger teacher can fail while a weaker one succeeds" result, and a reverse-distillation experiment that undercuts the whole premise.
 tags:
   - distillation

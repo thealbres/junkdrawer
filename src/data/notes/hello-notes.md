@@ -1,6 +1,6 @@
 ---
 title: Hello, Notes
-pubDatetime: 2026-09-07T12:00:00Z
+pubDatetime: 2026-09-06T12:00:00Z
 description: The first entry in the new Notes section — shorter, more informal write-ups than regular posts.
 tags:
   - meta

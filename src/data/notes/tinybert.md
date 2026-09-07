@@ -1,6 +1,6 @@
 ---
 title: "Notes on: TinyBERT"
-pubDatetime: 2026-09-07T12:10:00Z
+pubDatetime: 2026-09-06T12:10:00Z
 description: Jiao et al.'s four-loss layer-wise distillation and two-stage framework, with the actual GLUE table — TinyBERT6 essentially matches BERT-base, TinyBERT4 keeps 96.8% of it at 7.5x smaller.
 tags:
   - distillation

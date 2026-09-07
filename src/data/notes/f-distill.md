@@ -1,6 +1,6 @@
 ---
 title: "Notes on: f-DISTILL"
-pubDatetime: 2026-09-07T12:30:00Z
+pubDatetime: 2026-09-06T12:30:00Z
 description: The actual f-DISTILL framework — the four concrete divergence variants (KL, RKL, JS, TVD), the word-level decomposition that makes them tractable, and why symmetric losses win on DART/XSum/WMT.
 tags:
   - distillation

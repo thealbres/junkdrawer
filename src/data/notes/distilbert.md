@@ -1,6 +1,6 @@
 ---
 title: "Notes on: DistilBERT"
-pubDatetime: 2026-09-07T12:05:00Z
+pubDatetime: 2026-09-06T12:05:00Z
 description: Sanh et al.'s actual architecture and loss recipe — halved layers initialized every-other-layer from BERT, a triple loss, and the specific GLUE/SQuAD numbers behind the "97% at 40% smaller" headline.
 tags:
   - distillation
