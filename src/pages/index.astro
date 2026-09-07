@@ -13,9 +13,12 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
-const posts = await getCollection("blog");
+const [posts, notes] = await Promise.all([
+  getCollection("blog"),
+  getCollection("notes"),
+]);
 
-const sortedPosts = getSortedPosts(posts);
+const sortedPosts = getSortedPosts([...posts, ...notes]);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 ---
