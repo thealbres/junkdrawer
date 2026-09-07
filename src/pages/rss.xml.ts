@@ -5,8 +5,11 @@ import getSortedPosts from "@/utils/getSortedPosts";
 import { SITE } from "@/config";
 
 export async function GET() {
-  const posts = await getCollection("blog");
-  const sortedPosts = getSortedPosts(posts);
+  const [posts, notes] = await Promise.all([
+    getCollection("blog"),
+    getCollection("notes"),
+  ]);
+  const sortedPosts = getSortedPosts([...posts, ...notes]);
   return rss({
     title: SITE.title,
     description: SITE.desc,

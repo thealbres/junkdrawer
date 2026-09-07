@@ -13,7 +13,11 @@ if (!SITE.showArchives) {
   return Astro.redirect("/404");
 }
 
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+const [blogPosts, notes] = await Promise.all([
+  getCollection("blog", ({ data }) => !data.draft),
+  getCollection("notes", ({ data }) => !data.draft),
+]);
+const posts = [...blogPosts, ...notes];
 
 const months = [
   "January",
